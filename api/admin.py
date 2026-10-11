@@ -3,4 +3,4 @@ from .models import Person
 # Register your models here.
 @admin.register(Person)
 class PersonAdmin(admin.ModelAdmin):
-    list_display = ['name', 'age', 'email']
+    list_display = ['id', 'name', 'age', 'email']
